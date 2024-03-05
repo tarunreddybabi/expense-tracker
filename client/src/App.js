@@ -1,6 +1,7 @@
 import './App.css';
 import Graph from './components/Graph';
 import Form from './components/Form';
+import Footer from './footer/footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Graph></Graph>
           {/* Form */}
           <Form></Form>
+          <Footer/>
         </div>
       </div>
     </div>

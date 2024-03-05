@@ -11,7 +11,7 @@ const Footer = () => {
       ></div>
       <br />
       <br />
-      <p style={{ textAlign: "center", fontSize: "14px", color: "black" }}>
+      <p style={{ marginLeft:"350px", textAlign: "center", fontSize: "14px", color: "black" }}>
         © 2024 My Website. All rights reserved.
       </p>
     </footer>
