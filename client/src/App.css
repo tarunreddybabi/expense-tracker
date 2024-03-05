@@ -17,8 +17,7 @@
 
 .App {
   text-align: center;
-  padding: 4em 0;
-}
+  }
 
 .bg-yellow{
   background-color: var(--color-yollow);
