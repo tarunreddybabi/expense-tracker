@@ -15,7 +15,7 @@ export default function Graph() {
   
 
   if(isFetching){
-    graphData = <div>Fetching</div>;
+    graphData = <div style={{margin:"20px",paddingBottom:"18px"}}>Fetching</div>;
   }else if(isSuccess){
     graphData = <Doughnut {...chart_Data(data)}></Doughnut>;
   }else if(isError){
